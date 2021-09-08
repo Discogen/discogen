@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/GNVageesh/discogen.git"
+		"url": "git+https://github.com/Discogen/discogen.git"
 	},
 	"keywords": [
 		"cli",
@@ -21,9 +21,9 @@
 	"author": "gnvageesh <vageeshgn2005@gmail.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/GNVageesh/discogen/issues"
+		"url": "https://github.com/Discogen/discogen/issues"
 	},
-	"homepage": "https://github.com/GNVageesh/discogen#readme",
+	"homepage": "https://github.com/Discogen/discogen#readme",
 	"dependencies": {
 		"boxen": "^5.0.1",
 		"chalk": "^4.1.2",

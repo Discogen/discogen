@@ -8,7 +8,13 @@ module.exports = {
 		shell.cd(dirname);
 		shell.mkdir("commands");
 		configjs(prefix, token);
-		createFileWithUrl("index.js", "../../data/index/index1.js");
-		createFileWithUrl("commands/ping.js", "../../data/commands/ping.js");
+		createFileWithUrl(
+			"index.js",
+			"https://raw.githubusercontent.com/Discogen/discogen-scripts/main/index/index1.js"
+		);
+		createFileWithUrl(
+			"commands/ping.js",
+			"https://raw.githubusercontent.com/Discogen/discogen-scripts/main/commands/ping.js"
+		);
 	},
 };

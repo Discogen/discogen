@@ -8,9 +8,10 @@ function createFile(filename, content) {
 }
 
 async function createFileWithUrl(filename, url) {
-	const data = fs.readFileSync(url, "utf8");
+	const data = await fetch(url);
+	const content = await data.text();
 
-	createFile(filename, data);
+	createFile(filename, content);
 }
 
 module.exports = { createFile, createFileWithUrl };
